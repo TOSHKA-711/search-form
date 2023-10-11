@@ -1,0 +1,259 @@
+.login {
+    width: 340px;
+    height: 450px;
+    background: #2c2c2c;
+    padding: 47px;
+    padding-bottom: 57px;
+    margin: 70px auto;
+    color: #fff;
+    border-radius: 17px;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    opacity: 1;
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 13px 18px;
+    margin: 20px 0 0 0;
+    font-size: 0.8em;
+    border-radius: 100px;
+    background: #3c3c3c;
+    color: #fff;
+  }
+  
+  .login input:focus {
+    animation: bounce 1s;
+    -webkit-appearance: none;
+  }
+  
+  .login input[type=submit],
+  .login input[type=button],
+  .h1 {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 13px;
+    margin: 40px 0 0 0;
+    border-radius: 500px;
+    font-weight: 600;
+    animation: bounce2 1.6s;
+  }
+  
+  .h1 {
+    padding: 0;
+    position: relative;
+    top: -35px;
+    display: block;
+    margin-bottom: -0px;
+    font-size: 1.3em;
+  }
+  
+
+  .btn {
+    background: linear-gradient(144deg,#e5be24, #5b42f3 );
+    padding: 13px 18px;
+    color: #fff;
+    padding: 16px !important;
+  }
+  
+  
+  .btn:hover {
+    background: linear-gradient(144deg, #1e1e1e , 20%,#1e1e1e 50%,#1e1e1e );
+    color: rgb(255, 255, 255);
+    padding: 16px !important;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  .login input[type=text] {
+    animation: bounce 1s;
+    -webkit-appearance: none;
+  }
+  
+  .login input[type=password] {
+    animation: bounce1 1.3s;
+  }
+  
+  .ui {
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#B563FF, #535EFC, #0EC8EE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(0.25turn, #535EFC, #0EC8EE, #0EC8EE);
+    border-image-slice: 1;
+    display: inline;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .login {
+      width: 70%;
+      padding: 3em;
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(-250px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bounce1 {
+    0% {
+      opacity: 0;
+    }
+  
+    40% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes bounce2 {
+    0% {
+      opacity: 0;
+    }
+  
+    70% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+  }
+  .login-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+  .download {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: #0ef;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #323946;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    opacity: 1;
+    display: block;
+    border: none;
+    outline: none;
+    width: 70%;
+    padding: 13px 18px;
+    margin: 20px 0 0 0;
+    font-size: 0.8em;
+    border-radius: 100px;
+    background: #3c3c3c;
+    color: #fff;
+  }
+  
+ .download:hover {
+    box-shadow: 0 0 3rem #0ef;
+  }
+
+
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #e5be24; 
+    border: none;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 8px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em rgb(235, 235, 235);
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #fff;
+  }
+
+  #input-file{
+    display: none;
+  }
+
+
+  /* -------------------------------------------- */
+
+  /* Base styles for larger screens */
+.login {
+  width: 340px;
+  height: 450px;
+  background: #2c2c2c;
+  padding: 47px;
+  padding-bottom: 57px;
+  margin: 70px auto;
+  color: #fff;
+  border-radius: 17px;
+  padding-bottom: 50px;
+  font-size: 1.3em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  opacity: 1;
+  display: block;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 13px 18px;
+  margin: 20px 0 0 0;
+  font-size: 0.8em;
+  border-radius: 100px;
+  background: #3c3c3c;
+  color: #fff;
+}
+/* ... Rest of your code ... */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .login {
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+  }
+}
+
+/* Media query for even smaller screens, e.g., mobile phones */
+@media (max-width: 480px) {
+  .login {
+    width: 70%;
+    height: 50%;
+    margin: 40px auto;
+    padding: 40px;
+    text-align: center;
+  }
+}
+
